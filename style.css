@@ -1,0 +1,320 @@
+body {
+	box-sizing: border-box;
+	background-color: #fdfcfe;
+	font-family: "Times New Roman", Times; 
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+#container {
+	display: flex;
+	align-items: center;
+}
+
+.header {
+	display: flex;
+	padding-left: 20px;
+	align-items: center;
+}
+
+.header2 {
+	display: flex;
+	flex-grow: .2;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 700px;
+}
+
+.carty {
+	padding-right: 20px;
+	align-items: center;
+	flex-grow: .2;
+	padding-left: 20px;
+	color: grey;
+	border:1px solid silver;
+	border-right-color: transparent;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+}
+
+.sell, .second {
+	color:#ff680b;
+}
+
+.sell:hover {
+	text-decoration: underline;
+	color: #d17339;
+}
+
+.second:hover {
+	text-decoration: underline;
+	color: #d17339;
+}
+
+.cart:hover {
+	text-decoration: underline;
+	color: #d17339;
+}
+
+button.second {
+	background-color: #fdfcfe;
+	outline-color: black;
+	outline-width: 1px;
+	border-color:#ff680b;
+	border-width: 2px;
+
+}
+
+img {
+	width: 25px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+h2 {
+	color: #ff680b;
+	padding-right: 15px;
+	font-size: 35px;
+}
+
+button.first {
+	background-color: #ff680b;
+	font-weight: bold;
+	color: white;
+	outline-color: black;
+	outline-width: 1px;
+}
+
+input {
+	height: 35px;
+	padding-left: 10px;
+	outline-color: black;
+	outline-width: 1px;
+}
+
+.first {
+	height: 35px;
+	width: 100px;
+}
+
+.second {
+	height: 35px;
+}
+
+#container2 {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 30px;
+	padding-left: 30px;
+	border:1px solid silver;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	font-family: Arial;
+	font-size: 15px;
+	color: #2a2926;
+}
+
+.line2:hover {
+	text-decoration: underline;
+	color: #d17339;
+}
+
+#container3 {
+	display: flex;
+	justify-content: space-evenly;
+	padding-right: 200px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+
+#recom {
+	background-color: #f0955d;
+	width: 140px;
+	text-align: center;
+	border-radius: 15px;
+}
+
+#recom:hover {
+	background-color: #dd996e;
+}
+
+#container4 {
+	border:1px solid silver;
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+	border-spacing: 1000px;
+	height: 2242px;
+}
+
+#cats {
+	border:1px solid silver;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	border-top-color: transparent;
+}
+
+.category {
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.categories {
+	padding-left: 15px;
+}
+
+.cats {
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.q {
+	padding-left: 15px;
+}
+
+.q:hover {
+	text-decoration: underline;
+	color: #d17339;
+}
+
+.cats:hover {
+	text-decoration: underline;
+	color: #d17339;
+}
+
+.category:hover {
+	text-decoration: underline;
+	color: #d17339;
+}
+
+.categories:hover {
+	text-decoration: underline;
+	color: #d17339;
+}
+
+.show {
+	color: #ff680b;
+	padding-left: 10px;
+}
+
+.show:hover {
+	text-decoration: underline;
+	color: #d17339;
+}
+
+select {
+	width: 200px;
+	height: 25px;
+}
+
+.selector {
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+#bigcontainer {
+	display: flex;
+	padding-left: 20px;
+}
+
+#container5 {
+	padding-left: 20px;
+	width: 1400px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+h5 {
+	color:#333333;
+}
+
+#itemtitle {
+	width: 250px;
+  	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+}
+
+ .price {
+	color:black;
+}
+
+.shopname {
+	color:grey;
+	font-size: 13px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.bigimg {
+	width: 320px;
+	height: 310px;
+}
+
+.makeMe {
+	width: 320px;
+	position: relative;
+}
+
+.star {
+	width: 100px;
+}
+
+#container6 {
+	background-color: #FAF9F6;
+}
+
+#fresh {
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+}
+
+#email {
+	display: flex;
+	justify-content: center;
+}
+
+.sub {
+	background-color: #ff680b;
+	color: white;
+	outline-width: 0px;
+}
+
+.shopi {
+	font-weight: bold;
+}
+
+.shopi:hover {
+	text-decoration: underline;
+}
+
+.etc {
+	font-size: 13px;
+}
+
+.etc:hover {
+	text-decoration: underline;
+}
+
+#justifyme {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.appear:hover .heart{
+	opacity: 1;
+}
+
+.heart {
+	position: absolute;
+	top: 8px;
+	right: 16px;
+	opacity: 0;
+}
